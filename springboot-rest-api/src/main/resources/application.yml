@@ -1,0 +1,13 @@
+# server 설정
+server:
+  port: 8081
+
+---
+# datasource 설정
+spring:
+  datasource:
+    hikari:
+      driver-class-name: org.mariadb.jdbc.Driver
+      jdbc-url: jdbc:mariadb://localhost:3306/homepage?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
+      username: root
+      password: 465130
